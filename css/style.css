@@ -1,0 +1,260 @@
+.grid-container {
+    display: grid;
+}
+
+nav {
+    background-color: #e77e23;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+nav a {
+    font-family: Arial, Verdana;
+    font-size: 30px;
+    color: #00204a;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background-color: #00204a;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a.active{
+    font-weight: bold;
+    background-color: #00204a;
+    color: white;
+}
+
+/*pets page grid*/
+
+.bacon-photos {
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 410px 410px 200px 410px;
+}
+
+.pluto-photos {
+    margin-left: 60px;
+    grid-template-columns: 410px 410px 410px 410px;
+}
+
+.smoothie-photos {
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: 410px 410px 410px 410px;
+}
+
+.fitz-photos {
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: 410px 410px 410px 410px;
+}
+
+.sage-photos {
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: 410px 410px 410px 410px;
+}
+
+/*recipe page grid*/
+.mac-and-cheese-photos {
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: 410px 410px 410px 410px;
+}
+
+.jiaozi-photos {
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: 410px 410px 410px 410px;
+}
+
+.chinese-hot-and-sour-soup-photos {
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: 410px 410px 410px 410px;
+}
+
+/*travel page grid*/
+.guanajuato-photos {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 410px 410px 410px 410px;
+}
+
+.vatican-photos {
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: 410px 410px 410px 410px;
+}
+
+.london-photos {
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: 410px 410px 410px 410px;
+}
+
+/*general styling*/
+
+img {
+    margin: auto;
+    border-radius: 15px;
+    width: 400px;
+}
+
+body {
+    background: #fff6da;
+    font-family: Arial, Verdana;
+    color: #00204a;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 39px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #00204a;
+    color: #ffffff;
+}
+
+h2 {
+    color: #005792;
+    font-weight: bold;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #005792;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+
+ul {
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    list-style-type: square;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        margin: auto;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        width: 300px;
+    }
+
+    /*mobile pets page grid*/
+
+    .bacon-photos {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .pluto-photos {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .smoothie-photos {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .fitz-photos {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .sage-photos {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /*mobile recipes page grid*/
+
+    .mac-and-cheese-photos {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .jiaozi-photos {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .chinese-hot-and-sour-soup-photos {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    /*mobile travel page grid*/
+.guanajuato-photos {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.vaitcan-photos {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.london-photos {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+}
+
+
+
+.skip-to-main{
+    background: #00bbf0;
+    color: #00204a;
+    height: 30px;
+    left: 40%;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-100%);
+}
+
+.skip-to-main:focus {
+    transform: translateY(0%);
+}
